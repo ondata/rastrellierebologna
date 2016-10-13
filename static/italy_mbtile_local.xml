@@ -23,7 +23,7 @@
 <ows:Operation name="GetTile">
 <ows:DCP>
 <ows:HTTP>
-<ows:Get xlink:href="http://192.168.99.100/styles/bright-v9/">
+<ows:Get xlink:href="http://192.168.99.100:32768/styles/bright-v9/">
 <ows:Constraint name="GetEncoding">
 <ows:AllowedValues>
 <ows:Value>RESTful</ows:Value>
@@ -49,7 +49,7 @@
 <TileMatrixSetLink>
 <TileMatrixSet>GoogleMapsCompatible</TileMatrixSet>
 </TileMatrixSetLink>
-<ResourceURL format="image/png" resourceType="tile" template="http://192.168.99.100/styles/bright-v9/rendered/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+<ResourceURL format="image/png" resourceType="tile" template="http://192.168.99.100:32768/styles/bright-v9/rendered/{TileMatrix}/{TileCol}/{TileRow}.png"/>
 </Layer>
 <TileMatrixSet>
 <ows:Title>GoogleMapsCompatible</ows:Title>
