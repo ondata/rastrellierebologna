@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<title>Mappiamo BO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-bar w3-indigo">
+  <button class="w3-bar-item w3-button" onclick="openCity('Mappa')">Mappa</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Form')">Form</button>
+</div>
+
+<div id="Mappa" class="w3-container city">
+  <h2>Mappiamo Bologna</h2>
+  <iframe style="width:90%; height:500px; frameBorder:0;" src="https://umap.openstreetmap.fr/it/map/mappiamobo_194853?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=true&tilelayersControl=null&embedControl=null&datalayersControl=null&onLoadPanel=undefined&captionBar=false&fullscreenControl=true&locateControl=true"></iframe>
+</div>
+
+<div id="Form" class="w3-container city" style="display:none">
+  <h2>Form</h2>
+  <iframe style="width:100%; height:500px; frameBorder:0;" src="https://ona.io/lorenzo_perone/50895/271675/webform"></iframe>
+</div>
+
+<script>
+function openCity(cityName) {
+    var i;
+    var x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    document.getElementById(cityName).style.display = "block";  
+}
+</script>
+
+</body>
+</html>
