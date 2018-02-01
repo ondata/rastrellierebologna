@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+<title>Mappiamo BO</title>
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body style="height:100%;">
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right w3-light-blue" style="height:100%; display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <iframe allow="geolocation" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-top-navigation allow-pointer-lock" style="width:100%; height:100%;" src="https://enketo.ona.io/x/#YJWZ"></iframe>
+</div>
+
+<!-- Page Content -->
+<div class="w3-grey" style="height:100%; padding:0;">
+  <button class="w3-button w3-deep-orange w3-small" onclick="w3_open()">☰</button>
+  <div class="w3-container" style="height:100%; padding:0;">
+    <iframe sandbox="allow-forms allow-scripts allow-same-origin " style="width:100%; height:100%;" src="https://umap.openstreetmap.fr/it/map/mappiamobo_194853?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=true&tilelayersControl=null&embedControl=null&datalayersControl=null&onLoadPanel=undefined&captionBar=false&fullscreenControl=true" allow="geolocation"></iframe>
+  </div>
+</div>
+
+
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+     
+</body>
+</html> 
