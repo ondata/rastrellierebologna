@@ -1,23 +1,21 @@
 # Progetto per realizzare un tool per la mappatura delle rastrelliere bici del Comune di Bologna
-Un ringraziamento per la collaborazione alla realizzazione e configurazione degli strumenti qui citati ad Andrea Borruso (@aburruso) e Paolo Frizzera (@geofriz).
+Questa semplice applicazione è stata realizzata con il contributo di [Lorenzo Perone](https://github.com/lorenzoperone) per [Wikimedia Italia](https://www.wikimedia.it/), [Andrea Borruso](https://github.com/aborruso) per [onData](http://ondata.it) e [Paolo Frizzera](https://github.com/geofrizz). Il metodo adottato per realizzarla è descritto in questo documento mentre il codice necessario è presente nel repository [rastrellierebologna](https://github.com/ondata/rastrellierebologna). Per il codice, i documenti ed i dati sono state scelte **licenze aperte**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.it), [OdBL](https://it.wikipedia.org/wiki/Open_Database_License), [GPL 3](https://it.wikipedia.org/wiki/GNU_General_Public_License).
 
 ### Link utili:
 
-1. [Documento del comune di Bologna che descrive il progetto](https://docs.google.com/document/d/1pc8odVBJqvMSAJLq8SLGy7VpzNISlrFTlIiD2KX0zhs/edit#)
-2. [Mappa fatta dal Comune di Bologna con i dati delle rastrelliere georeferenziate via geocoging](https://umap.openstreetmap.fr/ru/map/rastrelliere-per-il-parcheggio-delle-biciclette-a-_26587#17/44.49602/11.34108)
-3. [Form ONA](https://enketo.ona.io/x/#YJWZ)
-4. [Backend ONA](https://ona.io/lorenzo_perone/50895/271675#/overview)
-5. [Editor del form ONA](https://forms.ona.io/#/forms/a7ZXtDQPDF3WfSvAxctedV/edit)
-6. [Query Overpass per estrarre le rastrelliere](https://overpass-turbo.eu/s/uaP)
-7. [GIST per pubblicare questo documento](https://github.com/lorenzoperone/restrelliere_bo)
-8. [Mappa su Umap](https://github.com/lorenzoperone/restrelliere_bo)
-9. [Form su ONA](https://enketo.ona.io/x/#YJWZ)
-10. [Backend di consultazione dei dati del form](https://ona.io/lorenzo_perone/50895/271675#/overview)
-11. [Pagina web per il rilievo](http://bit.ly/mappa_rastrelliere)
+1. [Mappa fatta dal Comune di Bologna con i dati delle rastrelliere georeferenziate via geocoging](https://umap.openstreetmap.fr/ru/map/rastrelliere-per-il-parcheggio-delle-biciclette-a-_26587#17/44.49602/11.34108)
+2. [Repository di progetto](https://github.com/ondata/rastrellierebologna)
+3. [Query Overpass per estrarre le rastrelliere](https://overpass-turbo.eu/s/uaP)
+3. [Mappa su Umap](http://umap.openstreetmap.fr/it/map/mappiamobo_194853)
+4. [Form su ONA](https://enketo.ona.io/x/#YJWZ)
+5. [Backend di consultazione dei dati del form](https://ona.io/lorenzo_perone/50895/271675#/overview)
+6. [Pagina web per il rilievo](http://rastrellierebologna.ondata.it)
 
 ### Le componenti necessarie, per l'utilizzo da mobile, sono:
 
-### **1.** Un sistema che estragga dinamicamente le rastrelliere da OSM via Overpass Turbo, le rastrelliere sono presenti sia come nodo che come way, l'area di riferimento è quella del comune di Bologna, ho realizzato un semplice boundingbox.
+### **1.** Un sistema che estragga dinamicamente le rastrelliere da OSM via Overpass Turbo
+
+Le rastrelliere sono presenti sia come nodo che come way, l'area di riferimento è quella del comune di Bologna, ho realizzato un semplice boundingbox.
 
 ```
 /*
@@ -94,21 +92,30 @@ Il form, attraverso la connessione con Google Spreadsheet produce dinamicamente 
 
 ### **3.** Una mappa UMAP che riporti i dati estratti da OSM via Overpass Turbo e quelli raccolti dal form ONA.
 
-La mappa è a [questo](https://github.com/lorenzoperone/restrelliere_bo) indirizzo, contiene i dati estratti dinamicamente da OSM attraverso la query Overpass Turbo e i dati inseriti attraverso il **form**.
+La mappa è a [questo](http://umap.openstreetmap.fr/it/map/mappiamobo_194853) indirizzo, contiene i dati estratti dinamicamente da OSM attraverso la query Overpass Turbo e i dati inseriti attraverso il **form**.
 Perché i dati inseriti attraverso il **form** siano visualizzati in mappa bisogna attendere alcuni minuti, in genere tre o quattro.
 
 
 ### **4.** Una pagina web che permetta di visualizzare la mappa UMAP, form ONA e alcune indicazioni su come procedere al rilievo 
-Abbiamo realizzato [questa](https://github.com/lorenzoperone/lorenzoperone.github.io/blob/master/mappiamobo.html) pagina accessibile a [questo](https://lorenzoperone.github.io/mappiamobo.html) indirizzo anche attraverso uno shorten url [http://bit.ly/mappa_rastrelliere](http://bit.ly/mappa_rastrelliere) utilizzabile attraverso questo Qrcode
+Abbiamo realizzato [questa](http://rastrellierebologna.ondata.it) pagina utilizzabile attraverso questo Qrcode
 
-![MappiamoBO](./img/mappiamobo_html_url.png)
+<img src="./img/rastrellierebologna_ondata_it.png" alt="Drawing" style="width: 200px;"/>
 
 la pagina web ha questo aspetto
 
-![mappa](./img/Screenshot_20180202-095126.jpg)
+<img src="./img/Screenshot_20180202-095126.jpg" alt="Drawing" style="width: 400px;"/>
 
-attraverso i tab, cioè le scritte **Mappa**, **Form** e **Help** è possibile passare alle altre pagine, come ad esempio quella **Form**
+attraverso i tab, cioè le scritte **Mappa**, **Form**, **Dashboard** e **Help** è possibile passare alle altre pagine, come ad esempio quella **Form**
 
-![mappa](./img/Screenshot_20180202-095133.jpg)
+<img src="./img/Screenshot_20180202-095133.jpg" alt="Drawing" style="width: 400px;"/>
 
-e quella della documentazione la cui origine è [questo](https://github.com/lorenzoperone/restrelliere_bo/blob/master/how_to.md) file *mark down* nel repository.
+quella della **Dashboard**
+
+<img src="./img/Screenshot_20180202-095133.jpg" alt="Drawing" style="width: 400px;"/>
+
+e quella dell'**Help**
+
+<img src="./img/Screenshot_20180202-095133.jpg" alt="Drawing" style="width: 400px;"/>
+
+Per ogni dubbio puoi scrivere un messaggio in [questo](https://groups.google.com/forum/#!forum/mappiamobo) gruppo Google.
+
