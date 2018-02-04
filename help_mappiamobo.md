@@ -1,5 +1,10 @@
-# Come usare il form e la mappa
+# MappiamoBO - le rastrelliere per bici
 
+## Obiettivi dell'attività
+Questa web app è pensata per rilevare le rastrelliere per bici presenti nel territorio del Comune di Bologna, segnalando gli eventuali problemi manutentivi.
+I dati raccolti saranno utilizzati per aggiornare [Openstreetmap[(https://www.openstreetmap.org/), la più grande mappa collaborativa del mondo.
+
+## Come usare il form e la mappa
 Questa semplice applicazione è stata realizzata con il contributo di [Lorenzo Perone](https://github.com/lorenzoperone) per [Wikimedia Italia](https://www.wikimedia.it/), [Andrea Borruso](https://github.com/aborruso) per [onData](http://ondata.it) e [Paolo Frizzera](https://github.com/geofrizz). Il metodo adottato per realizzarla è descritto in questo documento mentre il codice necessario è presente nel repository [rastrellierebologna](https://github.com/ondata/rastrellierebologna). Per il codice, i documenti ed i dati sono state scelte **licenze aperte**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.it), [OdBL](https://it.wikipedia.org/wiki/Open_Database_License), [GPL 3](https://it.wikipedia.org/wiki/GNU_General_Public_License).
 
 Le rastrelliere per biciclette in [Openstreetmap](https://www.openstreetmap.org/#map=5/42.147/12.568) sono definite attreverso gli elementi presenti in [questa pagina wiki](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbicycle_parking):
