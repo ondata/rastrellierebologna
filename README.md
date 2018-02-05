@@ -8,7 +8,7 @@ Questa semplice applicazione è stata realizzata con il contributo di [Lorenzo P
 3. [Mappa su Umap](http://umap.openstreetmap.fr/it/map/mappiamobo_194853)
 4. [Form su ONA](https://enketo.ona.io/x/#YJWZ)
 5. [Backend di consultazione dei dati del form](https://ona.io/lorenzo_perone/50895/271675#/overview)
-6. [Pagina web per il rilievo](http://rastrellierebologna.ondata.it)
+6. [Pagina web per il rilievo](http://ondata.github.io/rastrellierebologna)
 
 ## Le componenti essenziali sono:
 
@@ -96,7 +96,7 @@ Perché i dati inseriti attraverso il **form** siano visualizzati in mappa bisog
 
 
 ### **4.** Una pagina web che permetta di visualizzare la mappa UMAP, form ONA e alcune indicazioni su come procedere al rilievo 
-Abbiamo realizzato [questa](http://rastrellierebologna.ondata.it) pagina utilizzabile attraverso questo Qrcode
+Abbiamo realizzato [questa](http://ondata.github.io/rastrellierebologna) pagina utilizzabile attraverso questo Qrcode
 
 <img src="./img/rastrellierebologna_ondata_it.png" alt="Drawing" style="width: 200px;"/>
 
