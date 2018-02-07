@@ -48,4 +48,15 @@ più i seguenti tag, non obbligatori
     * si compila un form mettendosi nella posizione in cui in OSM è segnata la rasprelliera e si inserisce nelle **note** l'**id** e il commento **mancante**
     * si compila un nuovo form in corrispondenza della rastrelliera distante più di 10 metri e non presente in OSM con tutte le caratteristiche.
 
+## Come migliorare la precisione della posizione registrata dal form
+Quando richiedo al form di caricare la posizione registrata dal GPS nello smartphone attraverso il pulsante evidenziato sotto
+
+![Pulsante](./img/Screenshot_20180207-081900.png)
+
+Il telefono interroga la posizione del GPS e la restituisce al **form**, per risparmiare batteria gli smartphone *accendono* e *spengono* il GPS per pochi istanti, questo spesso non consente di raggiungere una precisione adeguata. Leggendo nel campo **accuracy** compilato automaticamente dal form, possiamo verificare la precisione (stimata) in metri. In condizioni ideali, con buona visibilità e un telefono dotato di un modulo GPS di buon livello, questo valore può scendere anche sotto i 5 metri. L'ideale per il nostro scopo è che l'accuratezza sia perlomeno sotto i 10 metri. Per poter forzare il nostro telefono a mantenere il GPS attivo, migliorando così la qualità della misura possiamo usare diversi stratagemmi:
+
+* registrare continuamente la posizione attraverso un programma che fa un GPS log;
+* usare un programma come [GPS keeper light](https://play.google.com/store/apps/details?id=com.webmajstr.gpson&hl=it) per Android, o programmi analoghi per iOS, che si preoccupano di mantenere, quando necessario, il GPS attivo. 
+
+
 Per ogni dubbio puoi scrivere un messaggio in [questo](https://groups.google.com/forum/#!forum/mappiamobo) gruppo Google.

@@ -505,7 +505,7 @@ I dati raccolti saranno utilizzati per aggiornare [Openstreetmap[(https://www.op
 <tr>
 <td>bicycle_parking</td>
 <td>wall_loops</td>
-<td>Spesso considerati sarcasticamente dei &quot;piega ruote&quot; dai ciclisti. Spesso attaccati ad un muro o ad un terreno. Permette di legare solo la ruota anteriore (o la ruota posteriore) e solo la parte più anteriore o la parte bassa. Se viene applicata della forza, le ruote della bici possono venire danneggiate.</td>
+<td>Spesso considerati sarcasticamente dei &ldquo;piega ruote&rdquo; dai ciclisti. Spesso attaccati ad un muro o ad un terreno. Permette di legare solo la ruota anteriore (o la ruota posteriore) e solo la parte più anteriore o la parte bassa. Se viene applicata della forza, le ruote della bici possono venire danneggiate.</td>
 <td><a href="https://wiki.openstreetmap.org/wiki/File:Bike-parking-wheelbender.jpg"><img src="https://wiki.openstreetmap.org/w/images/thumb/c/c2/Bike-parking-wheelbender.jpg/100px-Bike-parking-wheelbender.jpg" alt=""></a></td>
 </tr>
 <tr>
@@ -523,7 +523,7 @@ I dati raccolti saranno utilizzati per aggiornare [Openstreetmap[(https://www.op
 <tr>
 <td>bicycle_parking</td>
 <td>bollard</td>
-<td>Un tipo speciale di dissuasore progettato per il bloccaggio della bici. Generalmente, la bici è bloccata sul palo centrale e &quot;braccia&quot; di qualche tipo impediscono ai ladri di sollevare semplicemente la bici sopra il palo.</td>
+<td>Un tipo speciale di dissuasore progettato per il bloccaggio della bici. Generalmente, la bici è bloccata sul palo centrale e &ldquo;braccia&rdquo; di qualche tipo impediscono ai ladri di sollevare semplicemente la bici sopra il palo.</td>
 <td><a href="https://wiki.openstreetmap.org/wiki/File:Bike_path_on_College_in_Toronto.jpeg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Bike_path_on_College_in_Toronto.jpeg/100px-Bike_path_on_College_in_Toronto.jpeg" alt=""></a></td>
 </tr>
 <tr>
@@ -585,6 +585,19 @@ I dati raccolti saranno utilizzati per aggiornare [Openstreetmap[(https://www.op
 <li><p>si compila un form mettendosi nella posizione in cui in OSM è segnata la rasprelliera e si inserisce nelle <strong>note</strong> l&#39;<strong>id</strong> e il commento <strong>mancante</strong></p></li>
 <li><p>si compila un nuovo form in corrispondenza della rastrelliera distante più di 10 metri e non presente in OSM con tutte le caratteristiche.</p></li>
 </ul></li>
+</ul>
+
+<h2 id="toc_3">Come migliorare la precisione della posizione registrata dal form</h2>
+
+<p>Quando richiedo al form di caricare la posizione registrata dal GPS nello smartphone attraverso il pulsante evidenziato sotto</p>
+
+<p><img src="./img/Screenshot_20180207-081900.png" alt="Pulsante"></p>
+
+<p>Il telefono interroga la posizione del GPS e la restituisce al <strong>form</strong>, per risparmiare batteria gli smartphone <em>accendono</em> e <em>spengono</em> il GPS per pochi istanti, questo spesso non consente di raggiungere una precisione adeguata. Leggendo nel campo <strong>accuracy</strong> compilato automaticamente dal form, possiamo verificare la precisione (stimata) in metri. In condizioni ideali, con buona visibilità e un telefono dotato di un modulo GPS di buon livello, questo valore può scendere anche sotto i 5 metri. L&#39;ideale per il nostro scopo è che l&#39;accuratezza sia perlomeno sotto i 10 metri. Per poter forzare il nostro telefono a mantenere il GPS attivo, migliorando così la qualità della misura possiamo usare diversi stratagemmi:</p>
+
+<ul>
+<li>registrare continuamente la posizione attraverso un programma che fa un GPS log;</li>
+<li>usare un programma come <a href="https://play.google.com/store/apps/details?id=com.webmajstr.gpson&amp;hl=it">GPS keeper light</a> per Android, o programmi analoghi per iOS, che si preoccupano di mantenere, quando necessario, il GPS attivo. </li>
 </ul>
 
 <p>Per ogni dubbio puoi scrivere un messaggio in <a href="https://groups.google.com/forum/#!forum/mappiamobo">questo</a> gruppo Google.</p>

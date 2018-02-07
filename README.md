@@ -9,6 +9,7 @@ Questa semplice applicazione è stata realizzata con il contributo di [Lorenzo P
 4. [Form su ONA](https://enketo.ona.io/x/#YJWZ)
 5. [Backend di consultazione dei dati del form](https://ona.io/lorenzo_perone/50895/271675#/overview)
 6. [Pagina web per il rilievo](http://ondata.github.io/rastrellierebologna)
+7. [Pagina dell'help della web app](https://ondata.github.io/rastrellierebologna/help_mappiamobo.html)
 
 ## Le componenti essenziali sono:
 
