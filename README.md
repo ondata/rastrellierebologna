@@ -103,19 +103,19 @@ Abbiamo realizzato [questa](http://ondata.github.io/rastrellierebologna) pagina 
 
 la pagina web ha questo aspetto
 
-<img src="./img/Screenshot_20180202-095126.jpg" alt="Drawing" style="width: 400px;"/>
+<img src="./img/Screenshot_20180222-191319.jpg" alt="Drawing" style="width: 400px;"/>
 
 attraverso i tab, cioè le scritte **Mappa**, **Form**, **Dashboard** e **Help** è possibile passare alle altre pagine, come ad esempio quella **Form**
 
-<img src="./img/Screenshot_20180202-095133.jpg" alt="Drawing" style="width: 400px;"/>
+<img src="./img/Screenshot_20180222-191327.jpg" alt="Drawing" style="width: 400px;"/>
 
 quella della **Dashboard**
 
-<img src="./img/Screenshot_20180202-095133.jpg" alt="Drawing" style="width: 400px;"/>
+<img src="./img/Screenshot_20180222-191352.jpg" alt="Drawing" style="width: 400px;"/>
 
 e quella dell'**Help**
 
-<img src="./img/Screenshot_20180202-095133.jpg" alt="Drawing" style="width: 400px;"/>
+<img src="./img/Screenshot_20180222-191400.jpg" alt="Drawing" style="width: 400px;"/>
 
 Per ogni dubbio puoi scrivere un messaggio in [questo](https://groups.google.com/forum/#!forum/mappiamobo) gruppo Google.
 
